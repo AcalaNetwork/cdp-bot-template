@@ -1,0 +1,24 @@
+{
+  "name": "Acala CDP Bot",
+  "description": "Mantain CDP at a certain liquidation ratio",
+  "repository": "https://github.com/AcalaNetwork/cdp-bot-template",
+  "keywords": ["node", "acala", "cdp", "bot", "guardian", "heroku"],
+  "env": {
+    "NODE_ENDPOINT": {
+      "description": "WebSocket node endpoint to connect",
+      "value": "wss://testnet-node-1.acala.laminar.one/ws"
+    },
+    "SURI": {
+      "description": "Borrower SURI",
+      "value": "//Charlie"
+    },
+    "ADDRESS": {
+      "description": "Borrower address",
+      "value": "5FLSigC9HGRKVhB9FiEo4Y3koPsNmBmLJbpXg2mp1hXcS59Y"
+    },
+    "COLLATERAL_RATIO": {
+      "description": "Maintain collateral ratio above this ratio",
+      "value": "1.4"
+    }
+  }
+}
