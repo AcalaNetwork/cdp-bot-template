@@ -466,27 +466,27 @@
     "@open-web3/util" "^0.6.0-beta.2"
 
 "@open-web3/example-guardian@^0.3.0-beta.22":
-  version "0.3.0-beta.24"
-  resolved "https://registry.yarnpkg.com/@open-web3/example-guardian/-/example-guardian-0.3.0-beta.24.tgz#a0ebc4144529d475b33eaedce6053562e1eeb177"
-  integrity sha512-uORx6bRAW9l3f5dHUkv5FYUzhmvFfNcKzqtKLMn+1nkaOLDQPL2lp5Edov1CrlIwMLXKK+oO1gC2FjpOVTvPJA==
+  version "0.3.0-beta.25"
+  resolved "https://registry.yarnpkg.com/@open-web3/example-guardian/-/example-guardian-0.3.0-beta.25.tgz#ae61b9ee6f746b57827bc20ec215c75075eb8fe9"
+  integrity sha512-vXpiPuvyEfZQCwM1C+PplFCM8R4CveGrzh0/jgfBrDQmNo/15qfWMkhWpY5vZXNWVgdZJdiyRwj5kOuERb1kdw==
   dependencies:
     "@open-web3/api" "^0.6.0-beta.2"
-    "@open-web3/guardian" "^0.3.0-beta.24"
-    "@open-web3/guardian-cli" "^0.3.0-beta.24"
+    "@open-web3/guardian" "^0.3.0-beta.25"
+    "@open-web3/guardian-cli" "^0.3.0-beta.25"
     dotenv "^8.2.0"
 
-"@open-web3/guardian-cli@^0.3.0-beta.24":
-  version "0.3.0-beta.24"
-  resolved "https://registry.yarnpkg.com/@open-web3/guardian-cli/-/guardian-cli-0.3.0-beta.24.tgz#3a4022532a26a549f2c635468ddf0b9ace4589e1"
-  integrity sha512-q1gytz5fd3loNYXoVGsaGSQJAM7HVi+L+CAXt8wpJQQFlezeelfuDxU6mJxe7pBXCGEtMbI1qbJnKdm84Q8zhw==
+"@open-web3/guardian-cli@^0.3.0-beta.25":
+  version "0.3.0-beta.25"
+  resolved "https://registry.yarnpkg.com/@open-web3/guardian-cli/-/guardian-cli-0.3.0-beta.25.tgz#8f252678385b3684c090ad8410438b6328e9a82d"
+  integrity sha512-nLUvISfLiviYAwYBJwiVy2Vh4dkDlnMWTzGdWTidcsrGcjIkwz+wGp3BEAYXwnvz6Q8J4fiiGD3D5+HTz9PSzw==
   dependencies:
-    "@open-web3/guardian" "^0.3.0-beta.24"
+    "@open-web3/guardian" "^0.3.0-beta.25"
     js-yaml "^3.13.1"
 
-"@open-web3/guardian@^0.3.0-beta.24":
-  version "0.3.0-beta.24"
-  resolved "https://registry.yarnpkg.com/@open-web3/guardian/-/guardian-0.3.0-beta.24.tgz#7fe97bdf6e662763b3fbbf0986a1eea66eb89e9b"
-  integrity sha512-XmD6ZNnI5537MRdYDPChsSMpTSLrSFoQO/FxkTg2wKYOXvgYdR/n9xxESwMbZE1LN2M9DqrT4z8EcQMyv7WZ4Q==
+"@open-web3/guardian@^0.3.0-beta.25":
+  version "0.3.0-beta.25"
+  resolved "https://registry.yarnpkg.com/@open-web3/guardian/-/guardian-0.3.0-beta.25.tgz#1de23194b0ee47b864ed8c28c8daaf861e095d61"
+  integrity sha512-HUCGWdjRwJgpLJv9DeJNK7r+R4GXvdhY77ymZPy6CAaOcDEmkBgZo0btCH7fJCFTl6yA9vdaH618sszSV5sF0w==
   dependencies:
     "@acala-network/api" "^0.4.0-beta.1"
     "@acala-network/app-util" "^0.4.0-beta.1"
