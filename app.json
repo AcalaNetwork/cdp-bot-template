@@ -6,7 +6,7 @@
   "env": {
     "NODE_ENDPOINT": {
       "description": "WebSocket node endpoint to connect",
-      "value": "wss://testnet-node-1.acala.laminar.one/ws"
+      "value": "wss://mandala.laminar.codes/ws"
     },
     "SURI": {
       "description": "Borrower SURI",
