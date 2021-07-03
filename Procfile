@@ -1,1 +1,1 @@
-web: node index.js & yarn cdp-guardian
+web: node index.js & yarn cdp
