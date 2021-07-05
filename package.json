@@ -4,6 +4,6 @@
   "description": "CDP bot template for heroku deployment",
   "license": "Apache-2.0",
   "dependencies": {
-    "@open-web3/example-guardian": "^0.4.2-8"
+    "@open-web3/example-guardian": "^0.4.2-9"
   }
 }

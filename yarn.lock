@@ -487,31 +487,33 @@
   dependencies:
     "@open-web3/util" "0.9.4-13"
 
-"@open-web3/example-guardian@^0.4.2-8":
-  version "0.4.2-8"
-  resolved "https://registry.yarnpkg.com/@open-web3/example-guardian/-/example-guardian-0.4.2-8.tgz#f84bd92b31cda129a3816af03ceb5f95bcf628e1"
-  integrity sha512-kfrv/jNM63CSWBtd0Rfvzi3tE5BgmycU21e6a0XdVwbzSR/PzLt5yEuxa++A4bcriAv/hYGWSXXYUSToluCCYg==
+"@open-web3/example-guardian@^0.4.2-9":
+  version "0.4.2-9"
+  resolved "https://registry.yarnpkg.com/@open-web3/example-guardian/-/example-guardian-0.4.2-9.tgz#54d9bbb65ac2c31a8ddf5e6c2fa1862a76f3364a"
+  integrity sha512-lDhcB7gcBtI3yNnFuM2GSLcACRQ4DdBoAiz/TaZ2B+v4Gi57F6PEdHyGUZvDtKueUbrRcwkmYIWUtG7rjMbCBA==
   dependencies:
     "@open-web3/api" "^0.9.4-13"
-    "@open-web3/guardian" "0.4.2-8"
-    "@open-web3/guardian-cli" "0.4.2-8"
+    "@open-web3/guardian" "0.4.2-9"
+    "@open-web3/guardian-cli" "0.4.2-9"
     "@open-web3/util" "^0.9.4-13"
     "@types/nodemailer" "^6.4.2"
     dotenv "^10.0.0"
     nodemailer "^6.6.2"
 
-"@open-web3/guardian-cli@0.4.2-8":
-  version "0.4.2-8"
-  resolved "https://registry.yarnpkg.com/@open-web3/guardian-cli/-/guardian-cli-0.4.2-8.tgz#2fa9267c3e539faa51484d5410c0cbfa779e9ef5"
-  integrity sha512-yN6MKiTb4ulj2JcGrS6zQewMTmUU5ExPJlzMaVaQY81j4L3NXPmzwdM/n4jyFmnykTewPTwFmrj9d+R7LHqHTA==
+"@open-web3/guardian-cli@0.4.2-9":
+  version "0.4.2-9"
+  resolved "https://registry.yarnpkg.com/@open-web3/guardian-cli/-/guardian-cli-0.4.2-9.tgz#379c45365cbcef6430041b9096ea45cb37f74c59"
+  integrity sha512-y1yfyPmU0aC6GNbgsvn+J8QnFqQ0PWgb9prchuGNB3cHGgKQqTWuoEdI+1x0Y9c3VWOq4uJuBom6WKqyt+kaWg==
   dependencies:
-    "@open-web3/guardian" "0.4.2-8"
+    "@open-web3/guardian" "0.4.2-9"
+    "@types/js-yaml" "^4.0.1"
     js-yaml "^4.1.0"
+    yargs "^17.0.1"
 
-"@open-web3/guardian@0.4.2-8":
-  version "0.4.2-8"
-  resolved "https://registry.yarnpkg.com/@open-web3/guardian/-/guardian-0.4.2-8.tgz#4b392ee6c92ce926b148d1f016b9223b3c3933e7"
-  integrity sha512-rgSo8xMEXWYVdI9mMRMFNqmn1WhgKD1Z/oEvRu785ZbTwaMVEDT6bJvDIF9G19a6lZyM/zUoGAat05+rafRlqA==
+"@open-web3/guardian@0.4.2-9":
+  version "0.4.2-9"
+  resolved "https://registry.yarnpkg.com/@open-web3/guardian/-/guardian-0.4.2-9.tgz#83fd3482c273bf4a21b038b60da22ea5d6bb4ff9"
+  integrity sha512-56b2UJNDlYdhngc85Y0vD2Sq0x4azSe+nNdsbsy3AE9Ub6f8Ye5OP11ngXEll9nlNJn3lzNsy4hnKo4YmuCZag==
   dependencies:
     "@acala-network/api" "1.0.1"
     "@acala-network/app-util" "1.0.1"
@@ -877,6 +879,11 @@
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
   integrity sha512-EaObqwIvayI5a8dCzhFrjKzVwKLxjoG9T6Ppd5CEo07LRKfQ8Yokw54r5+Wq7FaBQ+yXRvQAYPrHwya1/UFt9g==
+
+"@types/js-yaml@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-4.0.1.tgz#5544730b65a480b18ace6b6ce914e519cec2d43b"
+  integrity sha512-xdOvNmXmrZqqPy3kuCQ+fz6wA0xU5pji9cd1nDrflWaAWtYLLGk5ykW0H6yg5TVyehHP1pfmuuSaZkhP+kspVA==
 
 "@types/node-fetch@^2.5.10":
   version "2.5.10"
